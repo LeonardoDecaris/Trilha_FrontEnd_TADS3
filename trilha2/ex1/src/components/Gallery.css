@@ -1,0 +1,20 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.gallery-images{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: center;
+    gap: 10px;
+    
+}
+.gallery-images img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
