@@ -1,0 +1,29 @@
+nav{
+    border-bottom: 1px solid #ccc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img{
+        width: 100px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    .headerInfos{
+        display: flex;
+        align-items: center;
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin-right: 10px;
+            transition: 200ms;
+            &:hover{
+                color: #ff0000;
+            }
+        }
+    }
+}
