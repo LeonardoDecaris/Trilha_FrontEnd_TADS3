@@ -1,0 +1,16 @@
+.button {
+    background-color: aquamarine;
+    color: black;
+    box-shadow: black 0px 0px 5px;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 20px;
+    font-size: 26px;
+    transition: 200ms;
+}
+
+.button:hover {
+    background-color: #526952;
+    color: white;
+}
